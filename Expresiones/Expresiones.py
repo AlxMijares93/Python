@@ -19,7 +19,7 @@ def evaluaExpresion(pilaOperandos,pilaOperadores):
     elif ev[1] == 'V' or ev[1] == '^':
         resultado = ev[0] or ev[2]
         pilaOperandos.append(resultado)
-    #implecacion
+    #implicacion
     elif ev[1] == '->':
         resultado = (not ev[0]) or (ev[2])
         pilaOperandos.append(resultado)  
