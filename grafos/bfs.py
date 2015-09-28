@@ -6,11 +6,6 @@ graph = {
         '7': ['11', '12']
         }
 
-#definicion de una nueva funcion implementada por AlxMijares
-#def algoritmoBSF(graph,inicio,fin):
-    #expandidos =[] #declaramos la pila de expandidos
-    
-
 def bfs(graph, start, end):
     # maintain a queue of paths
     queue = []
