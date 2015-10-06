@@ -1,4 +1,3 @@
-#implementacion de grafos en python
 #utilizamos un diccionario para la implementacion del grafo
 #las llaves son los nodos del grafo
 #a cada nodo le corresponde una lista los cuales representa 
